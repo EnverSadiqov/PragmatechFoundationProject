@@ -1,0 +1,18 @@
+.news {
+    border: 1px solid wheat
+}
+
+.news-items {
+   
+    width: 860px;
+    margin: 0px auto;
+}
+
+.news-items-element {
+    border: 1px solid blue;
+    display: inline-block;
+    width: 209px;
+    height: 380px;
+    margin: 0px auto 
+    
+}
