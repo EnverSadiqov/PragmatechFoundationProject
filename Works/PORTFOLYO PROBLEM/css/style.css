@@ -1,0 +1,428 @@
+body {
+  
+    font-family: 'Roboto Serif', serif;
+    color: #555;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 40px 0px;}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 485px;
+    background-image: url(https://previews.aspirity.com/spirit/assets/img/img_bg_header.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#header:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(54deg, rgba(74, 76, 179, .95) 34%, hsla(0, 34%, 71%, .95));
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    width: 100vw;
+    background: white;
+    box-shadow: 0 5px 8px 0 rgb(0 0 0 / 14%);
+}
+
+.navbar ul {
+    display: flex;}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+#about {
+    height: 40vh;
+    padding-top: 100px;
+    margin-top: 5px;}
+
+#projects {
+    height: 100vh;
+    padding-top: 90px;
+    border: 5px solid rgb(255, 0, 174)
+}
+#testimonials {
+    height: 100vh;
+    padding-top: 200px;
+    border: 5px solid red}
+
+#blog {
+    height: 100vh;
+    padding-top: 200px;
+    border: 5px solid blue;}
+
+#contact {
+    height: 35vh;
+   padding: 10px;}  
+
+
+    
+/* header start */
+.personal-profile {
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 90px;}
+
+    .row-profile {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.66667%;
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;}
+
+        .personal-profile .personal-profile__name {
+            font-size: 44px;
+            line-height: 50px;
+            font-weight: 700;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 4;
+            padding-left: 100px;}
+
+            .personal-profile .personal-profile__work {
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 40px;
+                position: relative;
+                z-index: 4;
+                padding-left: 100px}
+
+                .personal-profile .personal-profile__contacts {
+                    margin-bottom: 20px;
+                position: relative;
+            z-index: 4;
+            padding-left: 100px}
+
+    .personal-profile .personal-profile__avatar img {
+        border-radius: 10px;
+        box-shadow: 0 0 27px rgb(96 96 96 / 34%);
+        width: 100%;
+        height: 430px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        margin-top: 30px;
+        position: relative;
+        z-index: 2;
+        -webkit-border-radius: 10px;} 
+       
+       /*HEADER finis*/
+
+/* ABOUT START */
+       .section {
+        padding-top: 60px;
+        padding-bottom: 60px;}
+
+       .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px; }
+
+        .row-small {
+            flex: 0 0 75.33333%;
+            max-width: 70.33333%;}
+ 
+            .section .section__title {
+                margin-bottom: 40px;
+                font-size: 36px;
+                line-height: 42px;
+                font-family: 'Roboto Serif', serif;}
+        
+            .section .section__description {
+                    margin-bottom: 30px;}
+                 p { 
+                 margin-top: 0px;}
+       
+                        .site-btn {
+                            background-color: #6d56c1;
+                            height: 50px;
+                            border-radius: 25px;
+                            font-size: 14px;
+                            line-height: 50px;
+                            text-transform: uppercase;
+                            padding: 15px;
+                            min-width: 170px;
+                            text-align: center;
+                            display: inline-block;
+                            color: #fff!important;
+                            font-weight: 500;
+                            overflow: hidden;}
+    /* ABOUT FINIS */
+
+
+    /* RESUME START */
+    #resume {
+        height: 235vh;
+        padding-top: 1px;
+        padding-left: 40px;
+        border: 4px solid gray;}
+    
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -30px;
+        margin-left: -15px;}
+    
+    .row-small {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 83.33333%;
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;}
+    
+        .section .section__title {
+            margin-bottom: 40px;
+            font-size: 36px;
+            line-height: 42px;
+            font-family: 'Roboto Serif', serif;}
+    
+            .section .section__description {
+                margin-bottom: 30px;}
+    
+                p {
+                    margin-top: 0px;}
+
+                    b, strong {
+                        font-weight: inherit;
+                        font-weight: bolder;}
+
+                        .resume-list {
+                            margin-top: 30px;
+                            margin-bottom: 30px;}
+    
+                            .resume-list .resume-list_title {
+                                font-family: Roboto Mono, monospace;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: 5px;
+                                text-transform: uppercase;
+                                font-weight: 700;
+                                color: #999;
+                        
+                                margin-bottom: 40px;}
+    
+                                .resume-list .resume-list__block {
+                                    border-left: 3px solid #6d56c1;
+                                    padding-left: 25px;
+                                    padding-bottom: 50px; } 
+
+                                    .resume-list .resume-list__block-title {
+                                        text-transform: uppercase;
+                                        color: #6d56c1;
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                        font-family: 'Roboto Serif', serif;
+                                        font-weight: 700;
+                                        padding-bottom: 5px; }               
+                            
+                                .resume-list .resume-list__block p {
+                                    margin: 0;}
+
+                                    .resume-list .resume-list__block-date {
+                                        font-family: Inconsolata,monospace;
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                        color: #999;
+                                        padding-bottom: 10px}
+    
+                                        .progress-list {
+                                            margin-top: 31px; }
+    
+                                        .col-md-12 {
+                                            -webkit-box-flex: 0;
+                                            -ms-flex: 0 0 100%;
+                                            flex: 0 0 100%;
+                                            max-width: 100%;
+                                            position: relative;
+                                            width: 100%;
+                                            min-height: 1px;
+                                            padding-right: 15px;}
+    
+                         .progress-list .progress-list__title, .progress-list p {
+                         font-size: 14px;
+                         line-height: 20px;
+                         text-transform: uppercase; 
+                         font-family: Roboto Mono,monospace;
+                         letter-spacing: 5px;
+                         font-weight: 700;
+                         color: #999;
+                         margin-bottom: 40px;}
+    
+        .mr-auto {
+            margin-right: auto!important;}
+    
+        .col-md-5 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+            max-width: 41.66667%;}
+    
+            .progress-list p {
+                width: 100%;
+                font-family: Inconsolata,monospace;}
+    
+                 .progress-list .progress-list__title, .progress-list p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-transform: uppercase;}
+    
+                    .progress-list p .progress-list__skill-value {
+                        float: right;}
+    
+                    .progress-list .progress {
+                        height: 6px;
+                        margin-bottom: 30px; } 
+    
+    .progress-list .progress .progress-bar {
+        background-color: #6d56c1;
+        width: 80%;}
+        /* RESUME FINIS */
+         
+        /* PORTFOLIO START */
+        
+
+        /* Contact START */
+        .background {
+            background-color: #6d56c1;
+            height: 70vh;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            position: relative;
+            color: #fff;}
+
+            .section .section__title {
+                margin-bottom: 40px;
+                font-size: 36px;
+                font-family: Roboto Mono,monospace;}
+                .container {
+                    max-width: 1140px; }
+
+                .col-md-12 {
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 0 100%;
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    position: relative;
+                    width: 100%;
+                    min-height: 1px;
+                    padding-right: 15px;
+                }
+            .col-lg-4 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 33.33333%;
+                flex: 0 0 33.33333%;
+                max-width: 33.33333%;
+            }
+            .col-md-5 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 41.66667%;
+                flex: 0 0 41.66667%;
+                max-width: 41.66667%;}
+
+                .contact-list {
+                    font-size: 16px;
+                    line-height: 24px;}
+
+                    .contact-list dd a {
+                        color: #fff; }
+
+                .contact-list dt {
+                    float: left;
+                    font-weight: 700;
+                    text-transform: uppercase;}
+
+                    .contact-list dd {
+                        padding-left: 100px;
+                        margin-bottom: 15px;}
+                        .contacts .contacts__social a {
+                            color: #fff;
+                            text-decoration: underline;
+                            padding: 6px 0;
+                            transition: all .3s;
+                        }
+                        .contacts .contacts__social li {
+                            margin-bottom: 20px;}
+
+                            .contacts .contacts__form-title {
+                                font-size: 16px;
+                                line-height: 24px;
+                                font-family: Roboto Mono,monospace;
+                                margin-bottom: 15px;}
+                                .contacts .contacts__form input {
+                                    width: 100%;
+                                    background-color: transparent;
+                                    border-radius: 3px;
+                                    border: 1px solid #fff;
+                                    padding: 10px;
+                                    color: #fff;
+                                    font-size: 25px;
+                                    line-height: 24px;
+                                    font-family: Roboto Mono,monospace;}
+                                    .contacts .contacts__form .form-group .form-validation {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        right: 0;
+                                        bottom: 0;
+                                        border-radius: 2px;
+                                        border: 2px solid #6d56c1;
+                                        pointer-events: none;
+                                        opacity: 0;
+                                        transition: all .3s;}
+                                        .contacts .contacts__form textarea {
+                                            width: 100%;
+                                            background-color: transparent;
+                                            border-radius: 3px;
+                                            border: 1px solid #fff;
+                                            padding: 10px;
+                                            height: 115px;
+                                            color: #fff;
+                                            font-size: 16px;
+                                            line-height: 24px;
+                                            font-family: Roboto Mono,monospace;}
+                             
+.site-btn.site-btn--form {
+    width: 100%;
+    border: none!important;
+    box-shadow: 0 1px 29px rgb(0 0 0 / 16%);
+    position: relative;}
+    .site-btn {
+        background-color: #6d56c1;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding: 15px;
+        min-width: 170px;
+        text-align: center;
+        display: inline-block;
+        color: #fff!important;
+        font-weight: 600;
+        overflow: hidden;}
+        /* CONTACT FINIS */
