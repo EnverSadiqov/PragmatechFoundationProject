@@ -34,10 +34,10 @@ margin-left: 5px;
 
 
 .row-profile {
-    width: 270px;
+    height: 395px;
+    max-width: 1197px;
+
 }
-
-
 .item-profile-avatar img {
     width: 270PX;
     border-radius: 8px;
@@ -49,5 +49,3 @@ margin-left: 5px;
     position: relative;
     top: 25px;
 }
-
-
