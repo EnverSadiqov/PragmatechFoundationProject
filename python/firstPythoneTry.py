@@ -1,5 +1,5 @@
 def EdediYaz(sayi):
-    if sayi > 0:
+    if sayi >0:
         EdediYaz(sayi - 1)
         print(sayi)
  
