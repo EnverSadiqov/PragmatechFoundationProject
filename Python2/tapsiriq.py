@@ -69,3 +69,12 @@
 # print(z) 
 
 
+def check_space(string):
+    count = 0
+    for i in string:
+        if i == " ":
+            count += 1
+    return count
+string= """Programming isn't about what you know; it's about what you can figure out."""
+print("number of spaces ",check_space(string))
+ 

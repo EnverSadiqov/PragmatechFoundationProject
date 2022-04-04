@@ -15,14 +15,14 @@
 # print(len(quote))
 
       ####2quote daxilində necə boşluq olduğunu tapın- hell oldu#### 
-# quote="""Programming isn't about what you know; it's about what you can figure out."""
-# def bosluqlaritap(quote):
-#     cem = 0
-#     for i in quote:
-#         if i == " ":
-#             cem += 1
-#     return cem
-# print("bosluklarin sayisi-",bosluqlaritap(quote))
+quote="""Programming isn't about what you know; it's about what you can figure out."""
+def bosluqlaritap(quote):
+    cem = 0
+    for i in quote:
+        if i == " ":
+            cem += 1   
+    return cem
+print("bosluklarin sayisi-",bosluqlaritap(quote))
 
 
       #### 4 quote daxilində olan ' işarəsini silərək yeni əldə edilən ifadəni ekrana çap edin-hell oldu###
